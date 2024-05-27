@@ -1,0 +1,243 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+header {
+  width: 100vw;
+  height: 34px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 24px;
+}
+.home {
+  display: flex;
+  gap: 29px;
+}
+.home a {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+  text-decoration: none;
+  color: black;
+}
+section {
+  width: 100vw;
+  height: 1839px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f4f7fa;
+}
+.hero {
+  width: 602px;
+  height: 202px;
+  margin-top: 94px;
+  margin-bottom: 119px;
+  text-align: center;
+}
+.hero h1 {
+  font-size: 60px;
+  color: #161c2d;
+  margin-bottom: 44px;
+}
+.hero p {
+  font-size: 19px;
+  font-weight: 400;
+}
+.price {
+  width: 1109px;
+  display: flex;
+  justify-content: space-between;
+}
+.price-1 {
+  width: 349px;
+  /* height: 604px; */
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  padding-top: 37px;
+  padding-left: 49px;
+}
+.price-1 p {
+  font-size: 13px;
+  color: #473bf0;
+  margin-bottom: 41px;
+}
+
+.price-per-month h1 {
+  font-size: 60px;
+}
+.price-per-month h1::first-letter {
+  font-size: 24px;
+}
+.price-per-month h1 span {
+  font-size: 17px;
+}
+.price-per-month p {
+  font-size: 15px;
+  font-weight: 400;
+  color: #161c2d;
+  margin-top: 11px;
+}
+.price-list {
+  margin-bottom: 31px;
+}
+.price-list .price-list-check {
+  font-size: 17px;
+  font-weight: 400;
+  color: #161c2d;
+}
+.price-list-check i {
+  width: 17px;
+  height: 12px;
+  color: #68d585;
+}
+.price-list .price-list-xmark {
+  font-size: 17px;
+  font-weight: 400;
+  color: #161c2d;
+  opacity: 70%;
+}
+.price-list .price-list-xmark i {
+  width: 17px;
+  height: 12px;
+  color: #d5d7dd;
+}
+.price-button {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-bottom: 38px;
+}
+.price-button button {
+  width: 205px;
+  height: 59px;
+  border: none;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 17px;
+  color: #473bf0;
+  position: relative;
+}
+.price-button button::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: #473bf0;
+  opacity: 8%;
+}
+.price-button p {
+  font-size: 15px;
+  font-weight: 400;
+  color: #161c2d;
+  opacity: 70%;
+}
+#button2 {
+  color: white;
+  background-color: #473bf0;
+}
+.features {
+  width: 1114px;
+  margin-top: 115px;
+}
+.features-head {
+  height: 152px;
+  text-align: center;
+  margin-bottom: 73px;
+}
+.features-head h1 {
+  font-size: 40px;
+  margin-bottom: 25px;
+}
+.features-head p {
+  font-size: 19px;
+  font-weight: 400;
+  opacity: 70%;
+}
+.features-list {
+  height: 143px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 71px;
+}
+.features-list-1 {
+  width: 346px;
+  height: 134px;
+  display: flex;
+  gap: 24px;
+}
+.features-list-1 img {
+  width: 37px;
+  height: 37px;
+}
+.features-list-1-text h1 {
+  font-size: 21px;
+  margin-bottom: 15px;
+}
+.features-list-1-text p {
+  font-size: 17px;
+  font-weight: 400;
+  opacity: 70%;
+}
+footer {
+  width: 100vw;
+  height: 533px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px;
+}
+.footer1 {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 121px;
+  color: #161c2d;
+}
+.list p {
+  margin-bottom: 20px;
+  font-weight: 400;
+  font-size: 15px;
+}
+
+.list1 p {
+  margin-bottom: 15px;
+  font-size: 17px;
+  font-weight: 400;
+}
+.list2 p {
+  color: #473bf0;
+  font-weight: 700;
+}
+.footer2 {
+  width: 100%;
+  height: 58px;
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  border-top: 2px solid #e7e9ed;
+}
+.footer2 p {
+  font-size: 15px;
+  font-weight: 400;
+  color: #161c2d;
+}
+.fb {
+  width: 166px;
+  height: 19px;
+  display: flex;
+  justify-content: space-between;
+}
